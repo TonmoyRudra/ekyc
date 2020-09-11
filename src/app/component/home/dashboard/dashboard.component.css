@@ -1,0 +1,74 @@
+/*---pro-ident----*/
+.pro_ident {
+    text-align: center; 
+ }
+ .process_box {
+     padding:25px 0px;
+     text-align: center;
+     box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12)!important; 
+     transition:all 0.5s;
+ }
+ .process_box:hover{
+   box-shadow: 0 3px 5px -1px rgba(0,0,0,.2),0 6px 10px 0 rgba(0,0,0,.14),0 1px 18px 0 rgba(0,0,0,.12) !important;  
+ }
+ 
+ .process_box h4{
+     font-size: 13px!important;
+     color:#515C6F;
+ }
+ .process_box  h6{
+     color:#4a4a4a;
+     font-size: 1.05rem!important;
+     margin-bottom: 5px!important;
+ }
+ .process_box p{
+     font-size: 13px;
+     color:#4a4a4a;
+     margin-bottom: 0;
+ }
+ 
+ .btn-hover.color:focus{
+     outline: 0!important;
+     border:0!important;
+ }
+ @media(max-width:387px){
+     .pro_ident .btn-hover{
+         width:100%!important;
+     }
+ }
+ .btn-hover.color {
+     font-size: 13px;
+     font-weight: bold;
+     padding:10px;
+     width:250px;
+     color:#FFF!important;
+     background-image: linear-gradient(to right, #F5CC1F, #F49923, #F49923 , #F5CC1F);
+     margin:35px 0;
+     border-radius:2px;
+ }
+ 
+ .btn-hover {
+     font-size: 14px;
+     font-weight: 600;
+     color: #fff;
+     cursor: pointer;
+     border: none;
+   /* This affects the gradient background size. By putting a background width to be 300% (above 100%), only the beginning portion of this background will be shown. When hovered, the background will shift towards the end, giving the illustion of a moving gradient*/
+     background-size: 300% 100%;
+   
+   /* Transition duration and style */
+     moz-transition: all .5s ease-in-out;
+     -o-transition: all .5s ease-in-out;
+     -webkit-transition: all .5s ease-in-out;
+     transition: all .5s ease-in-out;
+ }
+ 
+ .btn-hover:hover {
+   /* Changes the start position of the gradient background upon hover, giving the illusion of motion. Feel free to play around with this percentage value to see how it works */
+     background-position: 100% 0;
+   /* Duration of gradient transition */
+     moz-transition: all .5s ease-in-out;
+     -o-transition: all .5s ease-in-out;
+     -webkit-transition: all .5s ease-in-out;
+     transition: all .5s ease-in-out;
+ }

@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: Roboto,sans-serif; 
+ }
+ a{
+     text-decoration: none!important;
+ }
+ .title{
+     width:100%;
+     text-align: center;
+     margin: 35px 0;
+ }
+ .title h6{
+    color:#4a4a4a; 
+ }
+ .title h5{
+     color:#4a4a4a; 
+     font-size: 1rem!important;
+ }
+ @media(min-width:999px){
+     .col-md-5 {
+         -ms-flex: 0 0 20%;
+         flex: 0 0 20%;
+         max-width: 20%;
+ }
+ }
+ @media(min-width:597px)and (max-width:998px){
+     .col-md-5 {
+         -ms-flex: 0 0 33.33%;
+         flex: 0 0 33.33%;
+         max-width: 33.33%;
+         margin:0 auto 30px;
+ }
+       .col-md-5:nth-of-type(4){
+         margin-bottom:0px;
+     }
+     .col-md-5:nth-of-type(5){
+         margin-bottom:0px;
+     }
+ }
+     @media(max-width:596px){
+         .col-md-5 {
+         margin-bottom:30px;
+     }
+          .col-md-5:last-of-type {
+         margin-bottom:0px;
+     }
+ }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
